@@ -10,4 +10,8 @@
 
 @interface VWViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *button1;
+@property (strong, nonatomic) IBOutlet UIView *view1;
+@property (strong, nonatomic) IBOutlet UIButton *button2;
+
 @end
